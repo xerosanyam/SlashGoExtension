@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="../../../css/index.css" />
 </svelte:head>
 
-<div class="w-full">
+<div class="w-full text-base ">
   {#if $accessToken.length != 0}
     {#if mode === `options`}
       <Options />
